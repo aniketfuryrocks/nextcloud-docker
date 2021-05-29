@@ -1,4 +1,4 @@
-docker image for my personal [nextcloud](https://nextcloud.com/) server.
+Docker image for my personal [nextcloud](https://nextcloud.com/) server.
 
 ## Features
 - automatic backup to s3 bucket
