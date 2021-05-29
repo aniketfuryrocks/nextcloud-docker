@@ -28,15 +28,15 @@ You'll be required to enter the same password during restoration.
 
 ## Backup
 
-Make sure container is [ruuning](#run)
+Make sure the container is [ruuning](#run)
 
-Get id of container using
+Get the id of the container using
 
 ```bash
 sudo docker ps
 ```
 
-There you'll find an image similarily named to `aniketprajapatime_pg_backup_s3`.
+There you'll find an image similar named to `aniketprajapatime_pg_backup_s3`.
 Copy its `container id`, eg 7bd976320ff8
 
 ```bash
@@ -68,7 +68,7 @@ sudo docker exec <container id> sh restore.sh
 
 ## Env File
 
-create this at project root, assigning values accordingly
+Create a`.env` file at the project root, assigning values accordingly
 
 - `AWS_ACCESS_KEY_ID` S3 IIM access key
 - `AWS_SECRET_ACCESS_KEY` S3 IIM secret
